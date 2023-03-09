@@ -9,4 +9,8 @@ struct Book {
 	string Autors[10];
 	int AutorsCount;
 };
+
 void DemoBook();
+void ReadBookFromConsole(Book& book);
+void WriteBookToConsole(Book& book);
+int FindBookByAuthor(Book* books, int booksCount, string author);
