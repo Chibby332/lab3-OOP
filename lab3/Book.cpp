@@ -3,10 +3,7 @@
 #include "Book.h"
 using namespace std;
 
-int main() {
-    setlocale(LC_ALL, "Russian");
-    DemoBook();
-}
+
 
 //3.2.2 - 3.2.x
 
