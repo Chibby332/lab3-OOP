@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include "Song.h"
+#include "Genre.h"
 using namespace std;
 
 struct Album {

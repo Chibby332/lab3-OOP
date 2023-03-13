@@ -31,6 +31,8 @@ void SetAlbumSongsCount(Album& album, int songscount) {
 }
 void SetAlbumSongs(Album& album, Song* songs) {
 	for (int i = 0; i < album.SongsCount; i++) {
-		album.Songs[i] = &songs[i];
+		album.Songs[i]->Length = songs[i].Length;
+		album.Songs[i]->Name = songs[i].Name;
+		album.Songs[i]->Genre = songs[i].Genre;
 	}
 }

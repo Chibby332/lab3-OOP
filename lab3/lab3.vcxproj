@@ -127,20 +127,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Album.cpp" />
+    <ClCompile Include="Band.cpp" />
     <ClCompile Include="Book.cpp" />
     <ClCompile Include="Flight.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="Route.cpp" />
+    <ClCompile Include="Song.cpp" />
     <ClCompile Include="Time.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Album.h" />
+    <ClInclude Include="Band.h" />
     <ClInclude Include="Book.h" />
     <ClInclude Include="Flight.h" />
+    <ClInclude Include="Genre.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Route.h" />
+    <ClInclude Include="Song.h" />
     <ClInclude Include="Time.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

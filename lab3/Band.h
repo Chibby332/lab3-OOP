@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include "Album.h"
+#include "Genre.h"
 using namespace std;
 
 struct Band {
@@ -15,3 +16,11 @@ void SetBandName(Band& band, string name);
 void SetBandDesription(Band& band, string desctription);
 void SetBandAlbumsCount(Band& band, int albumcounts);
 void SetBandAlbums(Band& band, Album* albums);
+
+Song* FindSong(Band* band, string songTitle);
+
+Album* FindAlbum(Band& band, Song* song);
+
+Song* GetAllSongs(Band* band, int& allSongsCount);
+
+void DemoBand();
